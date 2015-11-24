@@ -7,5 +7,5 @@
 数据库配置文件 setting.js  语句sql.sql<br>
 
 
-express4与旧版本不同之处代码中已注释<br>支持批量上传<br>批量下载还在解决中<br>
+express4与旧版本不同之处代码中已注释<br>支持批量上传 /public/resources/下 <br>批量下载还在解决中<br>
 
