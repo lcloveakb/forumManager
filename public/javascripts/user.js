@@ -1,4 +1,4 @@
-
+﻿
 
 /**
  * 
@@ -67,12 +67,12 @@ function getUserList(keyword){
 		html+="<div class='list-main'><input type=text id='u_name' /><input type=button value='查找' class='btn btn-user-search' />";
 		html+="<div class='list-content'><table class='table tb-user'><tbody>";
 		html+="<tr><td>用户名</td><td>等级</td><td colspan=2>操作</td></tr>";
-		var data = eval(result);
-		$.each(data.result, function(key, value){
+		$.each(result, function(key, value){
 			html+="<tr><td>"+value.name+"</td><td>"+value.u_level+"</td><td><a href=javascript:userUpdate('"+value.name+"');>update</a></td><td><a href=javascript:userDel('"+value.id+"');>delete</a></td</tr>";
 		});
 		html+="</tbody></table></div></div>"
 		$(".content").html(html);
+		
 	})
 }
 

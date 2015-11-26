@@ -1,4 +1,4 @@
-
+﻿
 /**
  * 
  * Author:Liuchang
@@ -56,7 +56,7 @@ router.get('/getList', function(req, res, next){
 		if (err) {
 			result = [];
 		}
-		res.send({result:result});
+		res.json(result);
 	});
 });
 

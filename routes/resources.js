@@ -1,4 +1,4 @@
-/**
+﻿/**
  * 
  * Author:Liuchang
  * Date:2015-11-21
@@ -95,7 +95,6 @@ router.get('/getList', function(req, res, next){
 
 	var parameter = url.parse(req.url, true).query;
 	var keyword = parameter.keyword;
-	console.log("kkk=="+keyword);
 	resource.getList(keyword, function(err, result, fields){
 		if (err) {
 			result = [];
