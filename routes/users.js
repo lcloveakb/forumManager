@@ -56,7 +56,7 @@ router.get('/getList', function(req, res, next){
 		if (err) {
 			result = [];
 		}
-		res.json(result);
+		res.json(result); //
 	});
 });
 
